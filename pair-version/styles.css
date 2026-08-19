@@ -1,0 +1,128 @@
+:root {
+	font-family: Arial, sans-serif;
+	color: #24313f;
+	background: #eef2f5;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 2rem 1rem;
+}
+
+main {
+	width: min(100%, 38rem);
+	margin: 0 auto;
+	padding: 2rem;
+	background: #ffffff;
+	border: 1px solid #d6dee5;
+	border-radius: 8px;
+	box-shadow: 0 8px 24px rgb(36 49 63 / 8%);
+}
+
+h1 {
+	margin: 0 0 1.5rem;
+	font-size: 2rem;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.75rem;
+}
+
+label {
+	width: 100%;
+	font-weight: 600;
+}
+
+input {
+	min-width: 0;
+	flex: 1;
+	padding: 0.7rem 0.8rem;
+	border: 1px solid #aebbc6;
+	border-radius: 4px;
+	font: inherit;
+}
+
+input:focus {
+	border-color: #276fbf;
+	outline: 3px solid rgb(39 111 191 / 20%);
+}
+
+button {
+	padding: 0.7rem 1rem;
+	border: 1px solid #276fbf;
+	border-radius: 4px;
+	background: #276fbf;
+	color: #ffffff;
+	font: inherit;
+	cursor: pointer;
+}
+
+button:hover,
+button:focus-visible {
+	background: #1e5898;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5rem;
+	margin: 1.75rem 0 1rem;
+}
+
+nav button {
+	background: #ffffff;
+	color: #276fbf;
+}
+
+nav button:hover,
+nav button:focus-visible {
+	background: #eaf3fb;
+}
+
+#task-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#task-list li {
+	margin-top: 0.5rem;
+	padding: 0.85rem 1rem;
+	border: 1px solid #d6dee5;
+	border-radius: 4px;
+	background: #f8fafb;
+	cursor: pointer;
+}
+
+#task-list li:hover {
+	border-color: #8da5b8;
+}
+
+#task-list li.completed {
+	background: #edf5ef;
+	border-color: #a8c8af;
+	color: #5c7061;
+	text-decoration: line-through;
+}
+
+@media (max-width: 30rem) {
+	body {
+		padding: 1rem;
+	}
+
+	main {
+		padding: 1.25rem;
+	}
+
+	form input,
+	form button {
+		width: 100%;
+		flex-basis: 100%;
+	}
+}

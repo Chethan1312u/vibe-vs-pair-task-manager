@@ -1,0 +1,6 @@
+{
+  "name": "Task Manager",
+  "description": "A simple personal task manager to create tasks, track completion status, and filter active and completed items.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
