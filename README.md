@@ -24,8 +24,8 @@ Features:
 
 ## Live Deployments
 
-- Vibe version: Add your deployed URL here
-- Pair version: Add your deployed URL here
+- Vibe version: https://vibe-version-gold.vercel.app/
+- Pair version: https://vibe-version-aj4t.vercel.app/
 
 ## Comparison Table
 
